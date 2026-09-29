@@ -1,0 +1,108 @@
+Date: 6/7/26
+TASK-1
+
+Identify the list of variables and their datatypes for the following:
+1. Bill of Amazon order
+2. A train or bus ticket
+3. Current bill
+4. Gas bill
+
+
+1. Amazon Order Bill
+--------------------
+Variable                    Datatype
+order number                long long int
+order date                  string
+invoice number              string
+customer name               string
+seller name                 string
+product name                string
+quantity                    int
+unit price                  double / float
+tax rate                    int
+tax amount                  double / float
+total amount                double / float
+payment mode                string
+state code                  int
+billing address             string
+pan no                      string
+gst no                      string
+net amount                  float
+payment transaction ID      string
+date                        string
+time                        string
+invoice value               float
+shipping address            string
+
+
+2. A Train Ticket or Bus Ticket
+-------------------------------
+Variable                    Datatype
+ticket no                   long / int
+date                        string
+time                        string
+depot                       string
+route                       string
+from place                  string
+to place                    string
+passengers                  int
+fare                        float
+total amount                float
+balance                     float
+conductor ID                int
+etm ID                      string
+vehicle no                  string
+transferable                string / boolean
+kms                         int
+epos no                     string
+govt. subsidy               float
+
+
+3. Current Bill
+---------------
+Variable                    Datatype
+bill no                     long / string
+service connection no       string
+unique sc no                long / int
+QR code                     image
+consumer name               string
+address                     string
+category                    int
+phase                       int
+contracted load             float
+connected load              float
+meter number                long
+multiplication factor       float
+present reading             int
+average units               int
+billed units                int
+RMD                         int
+energy charge               float
+fixed charge                float
+customer charge             float
+ED                          float
+surcharge                   float
+FPPCA charge                float
+government subsidy          float
+bill amount                 float
+net bill                    float
+due date                    string
+bill date                   string / date
+bill time                   string
+division                    string
+section                     string
+district                    string
+
+
+4. Gas Bill
+-----------
+Variable                    Datatype
+consumer no                 long long int
+customer name               string
+cylinder price              float / double
+cgst                        float / double
+sgst                        float / double
+final price                 float / double
+invoice date                string
+order status                string
+connection type             string

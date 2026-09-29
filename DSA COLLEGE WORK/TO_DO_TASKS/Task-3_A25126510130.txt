@@ -1,0 +1,62 @@
+Date: 9/7/26
+TASK-3
+
+Create a structure variable of a student, estimate the size of the structure
+manually, then write a C program to find the size of the structure using the
+sizeof operator. Now observe both the outputs. Are they same or different?
+Justify your answer.
+
+
+C Programming
+-------------
+#include <stdio.h>
+
+struct Student
+{
+    int id;
+    char grade;
+    float marks;
+};
+
+int main()
+{
+    struct Student s;
+    printf("Size of structure Student = %zu bytes\n", sizeof(s));
+    return 0;
+}
+
+
+Manual Size Calculation
+-----------------------
+Data member     Data type     Size (bytes)
+id              int           4
+grade           char          1
+marks           float         4
+Total                         9 bytes
+
+Actual size using sizeof:
+Size of structure Student = 12 bytes
+
+
+Why are they different?
+-----------------------
+The outputs are different.
+
+  - Manual size : 9 bytes (4 + 1 + 4)
+  - sizeof result: 12 bytes (on most compilers)
+
+This difference occurs because the compiler adds padding bytes between members
+to align data in memory for faster access.
+
+Memory layout:
+Member          Size          Offset
+id              4 bytes       0-3
+grade           1 byte        4
+padding         3 bytes       5-7
+marks           4 bytes       8-11
+
+So, the total size becomes 12 bytes instead of 9 bytes.
+
+Hence, they are different because the compiler inserts padding to satisfy memory
+alignment requirements, improving performance.
+The exact size may vary depending on the compiler and system architecture.

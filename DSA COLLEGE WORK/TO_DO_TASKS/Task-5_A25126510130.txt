@@ -1,0 +1,34 @@
+Date: 14/7/26
+TASK-5
+
+Compute the time complexity using the frequency count for the following
+sequence.
+
+
+1)  for (i = 1; i <= 10; i = i + 2)        -> init: 1, condition: 6, update: 5
+    {
+        i = i % 10;                        -> 5
+        printf("%d", i);                   -> 5
+    }
+                                           Total = 22
+
+
+2)  i = 1;                                 -> 1
+    while (i <= 50)
+    {
+        printf("hello");
+    }
+                                           Total = 1
+
+
+3)  for (i = 1; i <= 20; i++);             -> init: 1, condition: 19, update: 1
+                                           Total = 21
+
+
+4)  for (i = 1; i <= n; i = i + 2)         -> init: 1, condition: n/2 + 1,
+    {                                         update: n/2
+        printf("hello");                   -> n/2
+        printf("world");                   -> n/2
+        printf("i = %d", i);               -> n/2
+    }
+                                           Total = 5n/2 + 2

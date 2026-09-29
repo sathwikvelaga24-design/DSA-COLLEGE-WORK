@@ -1,0 +1,47 @@
+Date: 7/7/26
+TASK-2
+
+Find the list of companies that are in drive for placements using DSA.
+
+
+Top product-based companies (DSA-heavy)
+---------------------------------------
+Google, Amazon, Microsoft, Apple, Netflix, Meta / Facebook, LinkedIn,
+Twitter / X, Salesforce, Uber, Adobe, Fintech, SaaS, etc.
+
+
+Major Indian service-based companies (use DSA in tests)
+-------------------------------------------------------
+TCS, Infosys, Wipro, Cognizant, HCL, Tech Mahindra, Capgemini, Accenture,
+DXC Technology, CGI, Mindtree, L&T Infotech, Mphasis, Virtusa, Hexaware,
+NTT Data, Zensar, LTI, etc.
+
+
+Popular Indian product / startup companies using DSA rounds
+-----------------------------------------------------------
+Flipkart, Ola, Swiggy, Zomato, Paytm, Razorpay, Zoho, Freshworks, InMobi,
+Redbus, BookMyShow, PolicyBazaar, Naukri.com, MakeMyTrip.
+
+
+Find out the syllabus of GATE for DSA
+=====================================
+
+GATE SYLLABUS FOR DSA
+
+Programming and Data Structures:
+  - Programming basics: programming in C, variables, control flow, functions,
+    recursion.
+  - Linear data structures: arrays, strings, stacks, queues, linked lists.
+  - Trees: general trees, binary trees, binary search trees, basic operations.
+  - Heaps: binary heaps, priority queues, basic heap operations.
+  - Graphs: representation, basic graph theory concepts.
+  - Hashing: hash tables, hash functions, collision handling.
+
+Algorithms:
+  - Searching: linear and binary.
+  - Sorting (basic): bubble, selection and insertion.
+  - Sorting (advanced): merge, quick, heap sort, divide and conquer idea.
+  - Complexity: asymptotic worst-case time and space complexity, Big-O, omega,
+    theta.
+  - Algorithm design techniques: greedy, dynamic programming, divide-and-conquer.
+  - Graph algorithms.
